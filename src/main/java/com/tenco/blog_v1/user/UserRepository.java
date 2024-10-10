@@ -45,7 +45,7 @@ public class UserRepository {
         User userEntity = findById(id);
         userEntity.setPassword(password);
         userEntity.setEmail(email);
-        return  null;
+        return userEntity;
     }
 
     public  User findById(int id){
