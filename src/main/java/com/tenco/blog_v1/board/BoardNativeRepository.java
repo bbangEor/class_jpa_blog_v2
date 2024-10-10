@@ -1,6 +1,5 @@
-package com.tenco.blog_v1;
+package com.tenco.blog_v1.board;
 
-import com.tenco.blog_v1.board.Board;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import lombok.RequiredArgsConstructor;
